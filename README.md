@@ -23,6 +23,20 @@ Or install it yourself as:
     $ gem install lou
 
 ## Usage
+### Basic settings
+Here are a few general info fields to populate your new site right away.
+
+```
+title: HTML <title>, which is overridden by post/page title if exists
+baseurl: ""
+favicon: "/path/to"
+g_analytics: UA-12345678-1
+
+header: name of your site here
+desc: >
+  description of your site, can be a quick bio if it's a portfolio
+```
+
 ### Social media links
 To add links to your social sites (linkedin, twitter, etc) below the bio, create a file named `social.yml` in your `_data` folder (which you may not have created yet). Inside it, follow the following format:
 
@@ -48,6 +62,13 @@ The default format for dates is `%b %-d, %Y`, which outputs `Jan 1, 2017`. Howev
 
 ```
 date_format: "%m/%d/%Y"
+```
+
+### Post pagination
+To include previous and next links at the bottom of a post page, leave the following setting to `true`. Otherwise, change to `false`.
+
+```
+prev-next: true
 ```
 
 ## License
