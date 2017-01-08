@@ -73,5 +73,44 @@ a {
 }
 
 .posts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post__row {
+  width: 100%;
   font-family: $font__main;
+  overflow: hidden;
+}
+
+div.post__row:hover * {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.post__sort {
+  @extend .post__row;
+  font-weight: 700;
+}
+
+.post__title,
+.post__date,
+.post__cat {
+  float: left;
+}
+
+.post__title {
+  width: 50%;
+}
+
+.post__date,
+.post__cat {
+  width: 25%;
+}
+
+.post__body {
+  margin: 20px 0;
+  font-family: $font__content;
 }

@@ -4,8 +4,34 @@ layout: default
 
 {% if site.posts %}
   <ul class="posts">
+    <li class="post__sort">
+      <div class="post__title">
+        Title
+      </div>
+      <div class="post__date">
+        Date
+      </div>
+      <div class="post__cat">
+        Category
+      </div>
+    </li>
     {% for post in site.posts %}
-      <li></li>
+      <li>
+        <div class="post__row">
+          <div class="post__title">
+            {{ post.title }}
+          </div>
+          <div class="post__date">
+            {{ post.date | date: "%m/%d/%Y" }}
+          </div>
+          <div class="post__cat">
+            {{ post.category }}
+          </div>
+        </div>
+        <!-- <div class="post__body">
+          {{ post.content }}
+        </div> -->
+      </li>
     {% endfor %}
   </ul>
 {% endif %}
