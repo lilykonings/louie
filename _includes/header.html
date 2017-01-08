@@ -1,5 +1,9 @@
 <div class="bio">
-  <div class="bio__header">{{ site.header }}</div>
+  <div class="bio__header">
+  	<a href="{{ "/" | relative_url }}">
+	  {{ site.header }}
+	</a>
+  </div>
   <div class="bio__desc">{{ site.desc }}</div>
   {% if site.data.social %}
     <ul class="bio__social">
