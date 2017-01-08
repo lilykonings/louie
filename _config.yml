@@ -19,7 +19,7 @@ post_cat: Genre
 
 # build settings
 markdown: kramdown
-theme: lou
+# theme: lou
 exclude:
   - Gemfile
   - Gemfile.lock
