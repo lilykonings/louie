@@ -29,11 +29,11 @@
       {% if site.prev-next %}
         <div class="post__paginate">
           {% if page.previous.url %}
-            <a class="post__paginate-left" href="{{ page.previous.url }}">&xlarr; {{ page.previous.title }}</a>
+            <a class="post__paginate-left" href="{{ page.previous.url | relative_url }}">&xlarr; {{ page.previous.title }}</a>
           {% endif %}
 
           {% if page.next.url %}
-            <a class="post__paginate-right" href="{{ page.next.url }}">{{ page.next.title }} &xrarr;</a>
+            <a class="post__paginate-right" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &xrarr;</a>
           {% endif %}
         </div>
       {% endif %}
