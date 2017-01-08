@@ -1,3 +1,28 @@
+// Our variables
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans');
+
+$on-palm:           600px !default;
+$on-laptop:         800px !default;
+
+// typography
+$inconsolata:       'Inconsolata', monospace;
+$open-sans:         'Open Sans', sans-serif;
+$font__size:        14px;
+$font__weight:      400;
+$font__line-height: 1.5;
+
+// colors
+$color__select:     #fefeca;
+$color__bg:         #f8f8f1;
+$color__text:       #000000;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// elements
 * {
   box-sizing: border-box;
 }
@@ -10,6 +35,10 @@
   background: $color__select;
 }
 
+hr {
+  color: black;
+}
+
 a {
   color: $color__text;
   text-decoration: underline;
@@ -17,4 +46,25 @@ a {
   &:hover {
     color: $color__text;
   }
+}
+
+// layout
+html {
+  overflow-y: scroll;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: $color__bg;
+  font-family: $inconsolata;
+  font-size: $font__size;
+  font-weight: $font__weight;
+  line-height: $font__line-height;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 120px 120px 0;
 }

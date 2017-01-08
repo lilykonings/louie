@@ -1,0 +1,37 @@
+.rows {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.row__sort {
+  font-weight: 700;
+}
+
+.row__post:hover * {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.row__title,
+.row__date,
+.row__cat {
+  float: left;
+}
+
+.row__title {
+  width: 50%;
+}
+
+.row__date,
+.row__cat {
+  width: 25%;
+}
+
+.row__body {
+  margin: 20px 0;
+  font-family: $open-sans;
+}

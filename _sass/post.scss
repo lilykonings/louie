@@ -1,0 +1,27 @@
+.post {
+  @extend .container;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.post__meta {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.post__title {
+  @extend .row__title;
+}
+
+.post__date {
+  @extend .row__date;
+}
+
+.post__cat {
+  @extend .row__cat;
+}
+
+.post__body {
+  max-width: 50%;
+}
