@@ -6,16 +6,15 @@ g_analytics: UA-12345678-1
 
 # bio
 author: Lou
-email: your-email@domain.com
 description: >
   A Jekyll theme (that looks awesome). Lou is free, lightweight,
   and customizable as a blog, archive, or portfolio.
 
 # posts
 newest_first: true
-post_title: Title
-post_date: Year
 date_format: "%Y"
+post_title: Story
+post_date: Year
 post_cat: Genre
 
 # build settings
