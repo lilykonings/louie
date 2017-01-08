@@ -1,5 +1,34 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
 
-{{ content }}
+  <body>
+    <div class="post">
+      <div class="bio__header">
+        <a href="/">back to {{ site.header }}</a>
+        <!-- {{ site.header }} -->
+      </div>
+
+      <div class="post__meta">
+        <div class="post__title">{{ page.title }}</div>
+        <div class="post__date">
+          {% if site.date_format %}
+            {{ page.date | date: site.date_format }}
+          {% else %}
+            {{ page.date | date: "%b %-d, %Y" }}
+          {% endif %}
+        </div>
+        <div class="post__cat">{{ page.category }}</div>
+      </div>
+
+      <div class="post__body">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="container">
+      {% include posts_list.html uid=page.url %}
+    </div>
+  </body>
+
+</html>
