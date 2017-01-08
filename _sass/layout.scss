@@ -1,0 +1,80 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: $color__bg;
+  font-family: $font__content;
+  font-size: $font__size;
+  font-weight: $font__weight;
+  line-height: $font__line-height;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 120px 120px 0;
+}
+
+.bio {
+  max-width: 500px;
+  margin-bottom: 100px;
+  font-family: $font__main;
+}
+
+.bio__author {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.bio__social {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.posts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post__row {
+  width: 100%;
+  font-family: $font__main;
+  overflow: hidden;
+}
+
+div.post__row:hover * {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.post__sort {
+  @extend .post__row;
+  font-weight: 700;
+}
+
+.post__title,
+.post__date,
+.post__cat {
+  float: left;
+}
+
+.post__title {
+  width: 50%;
+}
+
+.post__date,
+.post__cat {
+  width: 25%;
+}
+
+.post__body {
+  margin: 20px 0;
+  font-family: $font__content;
+}
