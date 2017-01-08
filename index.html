@@ -22,7 +22,11 @@ layout: default
             {{ post.title }}
           </div>
           <div class="post__date">
-            {{ post.date | date: "%m/%d/%Y" }}
+            {% if site.date_format %}
+              {{ post.date | date: site.date_format }}
+            {% else %}
+              {{ post.date | date: "%b %-d, %Y" }}
+            {% endif %}
           </div>
           <div class="post__cat">
             {{ post.category }}
