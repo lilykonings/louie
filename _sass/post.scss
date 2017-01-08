@@ -17,11 +17,15 @@
   a {
     display: block;
     width: 50%;
-    float: left;
   }
 }
 
+.post__paginate-left {
+  float: left;
+}
+
 .post__paginate-right {
+  float: right;
   text-align: right;
 }
 
