@@ -72,3 +72,24 @@ body {
   max-width: 1200px;
   margin: 0 120px;
 }
+
+// media queries
+@include media-query($on-laptop) {
+  body {
+    margin: 50px 0 25px;
+  }
+
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@include media-query($on-laptop) {
+  body {
+    margin: 25px 0;
+  }
+
+  .container {
+    margin: 0 25px;
+  }
+}
