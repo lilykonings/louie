@@ -6,6 +6,14 @@
 .bio__header {
   margin-bottom: 20px;
   font-weight: 700;
+
+  a {
+  	text-decoration: none;
+
+  	&:hover {
+  		text-decoration: none;
+  	}
+  }
 }
 
 .bio__social {

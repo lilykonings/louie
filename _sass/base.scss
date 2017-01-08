@@ -36,7 +36,8 @@ $color__yellow:     #fefeca;
 }
 
 hr {
-  color: black;
+  color: $color__black;
+  background-color: $color__black;
 }
 
 a {
