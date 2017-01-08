@@ -1,12 +1,11 @@
 // Our variables
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
 $on-palm:           600px !default;
 $on-laptop:         800px !default;
 
 // typography
 $inconsolata:       'Inconsolata', monospace;
-$open-sans:         'Open Sans', sans-serif;
 $font__size:        14px;
 $font__weight:      400;
 $font__line-height: 1.5;
@@ -55,7 +54,7 @@ html {
 
 body {
   width: 100%;
-  margin: 0;
+  margin: 120px 0 50px;
   padding: 0;
   background: $color__bg;
   font-family: $inconsolata;
@@ -66,5 +65,5 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 120px 120px 0;
+  margin: 0 120px;
 }

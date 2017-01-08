@@ -1,13 +1,13 @@
 .rows {
   width: 100%;
   margin: 0;
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
 
-.row__sort {
+.row__cols {
   font-weight: 700;
 }
 
@@ -33,5 +33,10 @@
 
 .row__body {
   margin: 20px 0;
-  font-family: $open-sans;
+}
+
+// behaviors
+.row__active {
+  text-decoration: none !important;
+  color: #ccc;
 }
