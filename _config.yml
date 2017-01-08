@@ -1,6 +1,7 @@
 # site
 title: Lou
-baseurl: "/lou"
+baseurl: ""
+url: "http://lillian-chen.com/lou"
 favicon: "/assets/sample/ico.png"
 g_analytics: UA-12345678-1
 
