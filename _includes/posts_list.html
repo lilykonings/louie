@@ -29,14 +29,14 @@
           <div class="row__title {% if include.uid == post.id %}row__active{% endif %}">
             {{ post.title }}
           </div>
-          <div class="row__date {% if include.uid == post.id %}row__active{% endif %}">
+          <div class="row__date">
             {% if site.date_format %}
               {{ post.date | date: site.date_format }}
             {% else %}
               {{ post.date | date: "%b %-d, %Y" }}
             {% endif %}
           </div>
-          <div class="row__cat {% if include.uid == post.id %}row__active{% endif %}">
+          <div class="row__cat">
             {{ post.category }}
           </div>
           <!-- <div class="row__body">

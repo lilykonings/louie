@@ -1,10 +1,17 @@
 .rows {
+  position: relative;
   width: 100%;
   margin: 0;
   margin-top: 50px;
   padding: 0;
   list-style: none;
   overflow: hidden;
+
+  a:visited *:before {
+    content: '&#x2713;';
+    position: absolute;
+    // color: red;
+  }
 }
 
 .row__cols {
@@ -37,6 +44,5 @@
 
 // behaviors
 .row__active {
-  text-decoration: none !important;
-  color: #ccc;
+  
 }

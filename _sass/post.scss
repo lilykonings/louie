@@ -1,14 +1,28 @@
 .post {
   @extend .container;
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
 }
 
 .post__meta {
+  max-width: 50%;
   margin: 30px 0 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $color__black;
   overflow: hidden;
   font-weight: 700;
+}
+
+.post__paginate {
+  max-width: 50%;
+  overflow: hidden;
+
+  a {
+    display: block;
+    width: 50%;
+    float: left;
+  }
+}
+
+.post__paginate-right {
+  text-align: right;
 }
 
 .post__title {
@@ -25,4 +39,6 @@
 
 .post__body {
   max-width: 50%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $color__black;
 }

@@ -11,9 +11,10 @@ $font__weight:      400;
 $font__line-height: 1.5;
 
 // colors
-$color__select:     #fefeca;
-$color__bg:         #f8f8f1;
-$color__text:       #000000;
+$color__black:      #000000;
+$color__gray:       #888888;
+$color__beige:      #f8f8f1;
+$color__yellow:     #fefeca;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -27,11 +28,11 @@ $color__text:       #000000;
 }
 
 ::selection {
-  background: $color__select;
+  background: $color__yellow;
 }
 
 ::-moz-selection {
-  background: $color__select;
+  background: $color__yellow;
 }
 
 hr {
@@ -39,11 +40,14 @@ hr {
 }
 
 a {
-  color: $color__text;
+  // display: block;
+  // width: 100%;
+  // height: 100%;
+  color: $color__black;
   text-decoration: underline;
 
   &:hover {
-    color: $color__text;
+    color: $color__black;
   }
 }
 
@@ -56,7 +60,7 @@ body {
   width: 100%;
   margin: 120px 0 50px;
   padding: 0;
-  background: $color__bg;
+  background: $color__beige;
   font-family: $inconsolata;
   font-size: $font__size;
   font-weight: $font__weight;

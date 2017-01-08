@@ -17,6 +17,9 @@ post_title: Story
 post_date: Year
 post_cat: Genre
 
+# post detail
+prev-next: true
+
 # build settings
 markdown: kramdown
 # theme: lou

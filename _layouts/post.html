@@ -4,7 +4,7 @@
 
   <body>
     <div class="post">
-      <a href="/">&larr; {{ site.header }}</a>
+      <div class="post__header">{{ site.header }}</div>
 
       <div class="post__meta">
         <div class="post__title">{{ page.title }}</div>
@@ -21,6 +21,18 @@
       <div class="post__body">
         {{ content }}
       </div>
+
+      {% if site.prev-next %}
+        <div class="post__paginate">
+          {% if page.previous.url %}
+            <a class="post__paginate-left" href="{{ page.previous.url }}">&xlarr; {{ page.previous.title }}</a>
+          {% endif %}
+
+          {% if page.next.url %}
+            <a class="post__paginate-right" href="{{ page.next.url }}">{{ page.next.title }} &xrarr;</a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
 
     <div class="container">
