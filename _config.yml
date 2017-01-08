@@ -5,8 +5,8 @@ favicon: "/assets/sample/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-author: Lou
-description: >
+header: Lou
+desc: >
   A Jekyll theme (that looks awesome). Lou is free, lightweight,
   and customizable as a blog, archive, or portfolio.
 
