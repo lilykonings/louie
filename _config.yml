@@ -5,13 +5,18 @@ favicon: "/assets/sample/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-author: Lillian Chen
+author: Lou
 email: your-email@domain.com
 description: >
-  Lily is currently a developer at IBM Watson Health based in Cambridge,
-  Massachusetts. She recently graduated from Cornell studying computer
-  science. Check out her blog or Twitter if you're curious. Reach out if
-  you're feeling something more.
+  A Jekyll theme (that looks awesome). Lou is free, lightweight,
+  and customizable as a blog, archive, or portfolio.
+
+# posts
+newest_first: true
+post_title: Title
+post_date: Year
+date_format: "%Y"
+post_cat: Genre
 
 # build settings
 markdown: kramdown
