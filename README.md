@@ -34,6 +34,13 @@ To add links to your social sites (linkedin, twitter, etc) below the bio, create
 # and so on...
 ```
 
+### Date format
+The default format for dates is `%b %-d, %Y`, which outputs `Jan 1, 2017`. However, you can customize it according to [this](http://jekyll.tips/jekyll-casts/date-formatting/#date) in `_config.yml` such as follows:
+
+```
+date_format: "%m/%d/%Y"
+```
+
 ## License
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
