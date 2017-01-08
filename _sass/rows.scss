@@ -6,21 +6,21 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-
-  a:visited *:before {
-    content: '&#x2713;';
-    position: absolute;
-    // color: red;
-  }
 }
 
 .row__cols {
   font-weight: 700;
 }
 
-.row__post:hover * {
-  text-decoration: underline;
-  cursor: pointer;
+.row__post:hover {
+  * {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .row__active {
+    text-decoration: line-through;
+  }
 }
 
 .row__title,
@@ -44,5 +44,5 @@
 
 // behaviors
 .row__active {
-  
+  text-decoration: line-through;
 }
