@@ -1,0 +1,77 @@
+// Our variables
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans');
+
+$base__font-size:   14px;
+$base__font-weight: 400;
+$base__line-height: 1.5;
+
+$font__main:       'Inconsolata', monospace;
+$font__content:    'Open Sans', sans-serif;
+
+// colors
+$color__select:     #fefeca;
+$color__bg:         #f8f8f1;
+$color__text:       #000000;
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: $color__select;
+}
+
+::-moz-selection {
+  background: $color__select;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: $color__bg;
+  font-family: $font__content;
+  font-size: $base__font-size;
+  font-weight: $base__font-weight;
+  line-height: $base__line-height;
+}
+
+a {
+  color: $color__text;
+  text-decoration: underline;
+
+  &:hover {
+    color: $color__text;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 120px 120px 0;
+}
+
+.bio {
+  max-width: 500px;
+  margin-bottom: 100px;
+  font-family: $font__main;
+}
+
+.bio__author {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.bio__social {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.posts {
+  font-family: $font__main;
+}

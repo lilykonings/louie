@@ -1,0 +1,11 @@
+<div class="bio">
+  <div class="bio__author">{{ site.author }}</div>
+  <div class="bio__desc">{{ site.description }}</div>
+  {% if site.data.social %}
+    <ul class="bio__social">
+      {% for item in site.data.social %}
+        <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
