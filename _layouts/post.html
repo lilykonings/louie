@@ -4,7 +4,11 @@
 
   <body>
     <div class="post">
-      <div class="post__header">{{ site.header }}</div>
+      <div class="bio__header">
+        <a href="{{ "/" | relative_url }}">
+          {{ site.header }}
+        </a>
+      </div>
 
       <div class="post__meta">
         <div class="post__title">{{ page.title }}</div>
