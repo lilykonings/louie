@@ -1,4 +1,4 @@
-# lou
+# Lou
 A jekyll portfolio generator (that looks awesome)
 
 ## Installation
@@ -32,6 +32,15 @@ To add links to your social sites (linkedin, twitter, etc) below the bio, create
 - title: Github
   url: http://github.com/lllychen/lou
 # and so on...
+```
+
+### Column names
+The names for each column is defaulted to `Title`, `Date`, and `Category`, respectively. However, this can be changed according to use cases. For instance, an archive of classic literature may need to adjust accordingly:
+
+```
+post_title: Story
+post_date: Year
+post_cat: Genre
 ```
 
 ### Date format
