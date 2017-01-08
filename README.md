@@ -30,9 +30,12 @@ To add links to your social sites (linkedin, twitter, etc) below the bio, create
 - title: Twitter
   url: http://twitter.com/lllychen
 - title: Github
-  url: http://github.com/lllychen
+  url: http://github.com/lllychen/lou
 # and so on...
 ```
 
 ## License
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## Credit
+Stories created and collected by [Story Bytes](http://www.storybytes.com/view-length/0256-words/index-0256.html).
