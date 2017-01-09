@@ -1,17 +1,17 @@
-# Lou
-A jekyll portfolio generator (that looks awesome). Lou is free, lightweight, and customizable as a blog, archive, or portfolio.
+# Louie
+A jekyll portfolio generator (that looks awesome). Louie is free, lightweight, and customizable as a blog, archive, or portfolio.
 
 ## Installation
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "lou"
+gem "louie"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: lou
+theme: louie
 ```
 
 And then execute:
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install lou
+    $ gem install louie
 
 ## Usage
 ### Basic configurations
@@ -85,3 +85,5 @@ The theme is available as open source under the terms of the [MIT License](http:
 
 ## Credit
 Stories created and collected by [Story Bytes](http://www.storybytes.com/view-length/0256-words/index-0256.html).
+
+Images collected by [Unsplash](https://unsplash.com/)

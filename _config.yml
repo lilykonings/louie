@@ -1,14 +1,14 @@
 # site
-title: Lou
-baseurl: "/lou"
+title: Louie
+baseurl: "/louie"
 url: "http://lillian-chen.com"
 favicon: "/assets/sample/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-header: Lou
+header: Louie
 desc: >
-  A Jekyll theme (that looks awesome). Lou is free, lightweight,
+  A Jekyll theme (that looks awesome). Louie is free, lightweight,
   and customizable as a blog, archive, or portfolio.
 
 # posts
@@ -22,7 +22,7 @@ prev-next: true
 
 # build settings
 markdown: kramdown
-# theme: lou
+# theme: louie
 exclude:
   - Gemfile
   - Gemfile.lock
