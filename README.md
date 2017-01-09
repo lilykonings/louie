@@ -3,6 +3,10 @@
 
 A jekyll portfolio generator (that looks awesome). Louie is free, lightweight, and customizable as a blog, archive, or portfolio.
 
+![Home](screenshot.png)
+![Home with hover](screenshot2.png)
+![Post](screenshot3.png)
+
 ## Installation
 Add this line to your Jekyll site's Gemfile:
 
