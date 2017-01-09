@@ -3,7 +3,7 @@ layout: post
 title:  Hunger Pains
 author: August Remier
 category: Humor
-img: https://images.unsplash.com/photo-1481819167214-0427aac02394?dpr=1&auto=format&fit=crop&w=1500&h=1029&q=80&cs=tinysrgb&crop=
+img: https://images.unsplash.com/photo-1465424365847-61f79d8b6435?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=
 ---
 
 Man, I'm hungry. There was nothing to eat in the house so I ordered a large pizza and ate the whole thing: but I'm still starving. So I searched for something, anything, to eat. Couldn't find a thing. Not a slice of bread, not a cracker, not even a crumb. I scoured the cupboards, the fridge, the seat cushions, the floor, behind the stove---nothin' I had to look elsewhere.
