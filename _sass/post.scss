@@ -59,3 +59,11 @@
     width: 100%;
   }
 }
+
+@include media-query($on-palm) {
+  .post__meta,
+  .post__body,
+  .post__paginate {
+    min-width: auto;
+  }
+}
