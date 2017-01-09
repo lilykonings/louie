@@ -1,5 +1,5 @@
 # Lou
-A jekyll portfolio generator (that looks awesome)
+A jekyll portfolio generator (that looks awesome). Lou is free, lightweight, and customizable as a blog, archive, or portfolio.
 
 ## Installation
 Add this line to your Jekyll site's Gemfile:
