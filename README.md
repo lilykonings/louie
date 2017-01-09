@@ -1,4 +1,6 @@
 # Louie
+[![Gem Version](https://badge.fury.io/rb/louie.svg)](https://badge.fury.io/rb/louie)
+
 A jekyll portfolio generator (that looks awesome). Louie is free, lightweight, and customizable as a blog, archive, or portfolio.
 
 ## Installation
