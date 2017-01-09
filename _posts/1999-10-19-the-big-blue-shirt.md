@@ -3,6 +3,7 @@ layout: post
 title:  The Big Blue Shirt
 author: Lorraine Gregoire
 category: Humor
+img: https://images.unsplash.com/photo-1473441732394-649138d63985?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=
 ---
 
 She was not what anyone would call pretty. The face was sad, pixie-like. Blonde curly bits attempted scraggly escapes from beneath the beat up baseball cap. She sat, thin shoulders hunched like she was trying to hide the girlie parts beneath that big blue shirt. I couldn't take my eyes off her. I feared she would disappear into the caverns of the mega-mall where I had first begun to follow her.

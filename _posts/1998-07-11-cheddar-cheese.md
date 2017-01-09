@@ -3,6 +3,7 @@ layout: post
 title:  Cheddar Cheese
 author: Wendy Boulding
 category: Humor
+img: https://images.unsplash.com/photo-1480951759438-f39a376462f2?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=
 ---
 
 Tepid blood is drizzling down and flowing toward the palm of my hand. Like my quest for intense passion, I fiercely clutch the handle of a white paring knife and I realize for the first time where my loyalties lie.

@@ -3,6 +3,7 @@ layout: post
 title:  Called on Account of Darkness
 author: Cynthia Kim
 category: Memoir
+img: https://images.unsplash.com/photo-1473655551229-a39d1a982885?dpr=1&auto=format&fit=crop&w=1500&h=998&q=80&cs=tinysrgb&crop=
 ---
 
 Mary Daley, a loyal fan of the Cooper City Little League, understood the value of calling a game (even a close one) on account of darkness. "No sense playing when it's too dark to see the ball," she always said. "The field will still be there tomorrow."

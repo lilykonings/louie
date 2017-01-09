@@ -3,6 +3,7 @@ layout: post
 title:  Berry Perfume
 author: M. Stanley Bubien
 category: Narrative
+img: https://images.unsplash.com/photo-1444399625673-8aa3b0c698ae?dpr=1&auto=format&fit=crop&w=1500&h=2251&q=80&cs=tinysrgb&crop=
 ---
 
 She slept on the grass, and the skunk's nose twitched while it explored the books spilling from her backpack. Had someone happened by at that moment, no doubt they would have hesitated, faced with the illusion that the little creature was contemplating "Philosophy," "World History," and "An Approach to Physics."

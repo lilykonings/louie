@@ -3,6 +3,7 @@ layout: post
 title:  Curve of Wind
 author: Richard Denner
 category: Narrative
+img: https://images.unsplash.com/photo-1418226970361-9f1f7227d638?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=
 ---
 
 Rosco and I wait for the fishermen to return. I sit at a wooden bench near the store at Mt. Baker Resort and watch the clouds change shape. Rosco has my belt around his neck and an eight foot tow chain hooked to a tree. Dogs must be on a leash. Ducks and rabbits are loose.

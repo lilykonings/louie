@@ -3,6 +3,7 @@ layout: post
 title:  Dancing on a Pin
 author: Gary E. Holland
 category: Memoir
+img: https://images.unsplash.com/photo-1481841580057-e2b9927a05c6?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=
 ---
 
 We had never talked of religion, but we often talked of marriage.

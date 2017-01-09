@@ -3,6 +3,7 @@ layout: post
 title:  Before the Hermitage Threshold
 author: M. Stanley Bubien
 category: Narrative
+img: https://images.unsplash.com/photo-1474926136673-20f4d627b833?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=
 ---
 
 I reached for the doorknob, but my hand shook. I pulled back and held my palm in front of my face.

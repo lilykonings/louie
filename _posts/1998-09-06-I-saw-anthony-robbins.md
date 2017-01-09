@@ -3,6 +3,7 @@ layout: post
 title:  I Saw Anthony Robbins
 author: M. Stanley Bubien
 category: Humor
+img: https://images.unsplash.com/photo-1431887915357-68b819fae322?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=
 ---
 
 I saw Anthony Robbins on the rocks yesterday. I mean I think it was him---you know, that guy that motivates people. They pay him, he motivates them. Pretty simple, really.

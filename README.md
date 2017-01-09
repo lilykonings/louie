@@ -23,7 +23,7 @@ Or install it yourself as:
     $ gem install lou
 
 ## Usage
-### Basic settings
+### Basic configurations
 Here are a few general info fields to populate your new site right away.
 
 ```yaml
@@ -62,6 +62,15 @@ The default format for dates is `%b %-d, %Y`, which outputs `Jan 1, 2017`. Howev
 
 ```yaml
 date_format: "%m/%d/%Y"
+```
+
+### Post variables
+The following variables are required in the front matter for posts:
+
+```yaml
+title:  Berry Perfume
+category: Narrative
+img: [ url or path in directory ]
 ```
 
 ### Post pagination

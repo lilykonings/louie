@@ -3,6 +3,7 @@ layout: post
 title:  Opportunity Missed
 author: Wendy Williams
 category: Narrative
+img: https://images.unsplash.com/photo-1472806215488-02c49f97bb5a?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=
 ---
 
 Walking home tonight, feeling tragic and solitary, I saw a Coke machine just next to the yellow 24-hour parking sign. I paused before it, instinctively, in a rooftop shadow. Strange how I could pass by the same fixture hundreds of times and never have taken notice of it. How could my steps have been so perfunctory? It glowed in the dark. It screamed to be seen.

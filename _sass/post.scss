@@ -2,8 +2,14 @@
   @extend .container;
 }
 
-.post__meta {
+.post__meta,
+.post__paginate,
+.post__body {
+  min-width: 500px;
   width: 50%;
+}
+
+.post__meta {
   margin: 30px 0 20px;
   border-bottom: 1px solid $color__black;
   overflow: hidden;
@@ -11,7 +17,6 @@
 }
 
 .post__paginate {
-  width: 50%;
   overflow: hidden;
 
   a {
@@ -42,7 +47,6 @@
 }
 
 .post__body {
-  width: 50%;
   padding-bottom: 20px;
   border-bottom: 1px solid $color__black;
 }

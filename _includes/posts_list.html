@@ -39,10 +39,11 @@
           <div class="row__cat {% if include.uid == post.id %}row__active{% endif %}">
             {{ post.category }}
           </div>
-          <!-- <div class="row__body">
-            {{ post.content }}
-          </div> -->
         </a>
+
+        {% if post.img %}
+          <img class="row__img" src="{{ post.img }}" alt="{{ post.title }}">
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
