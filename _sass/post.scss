@@ -2,13 +2,6 @@
   @extend .container;
 }
 
-.post__meta,
-.post__paginate,
-.post__body {
-  min-width: 500px;
-  width: 50%;
-}
-
 .post__meta {
   margin: 30px 0 20px;
   border-bottom: 1px solid $color__black;
@@ -56,14 +49,7 @@
   .post__meta,
   .post__body,
   .post__paginate {
-    width: 100%;
-  }
-}
-
-@include media-query($on-palm) {
-  .post__meta,
-  .post__body,
-  .post__paginate {
-    min-width: auto;
+    min-width: 500px;
+    width: 50%;
   }
 }

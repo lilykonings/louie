@@ -17,7 +17,7 @@ $color__beige:      #f8f8f1;
 $color__yellow:     #fefeca;
 
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (min-width: $device) {
     @content;
   }
 }
@@ -60,7 +60,7 @@ html {
 
 body {
   width: 100%;
-  margin: 120px 0 50px;
+  margin: 25px 0;
   padding: 0;
   background: $color__beige;
   font-family: $inconsolata;
@@ -71,11 +71,11 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 120px;
+  margin: 0 25px;
 }
 
 // media queries
-@include media-query($on-laptop) {
+@include media-query($on-palm) {
   body {
     margin: 50px 0 25px;
   }
@@ -87,10 +87,10 @@ body {
 
 @include media-query($on-laptop) {
   body {
-    margin: 25px 0;
+    margin: 120px 0 50px;
   }
 
   .container {
-    margin: 0 25px;
+    margin: 0 120px;
   }
 }
