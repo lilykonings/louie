@@ -23,6 +23,7 @@ $paginate-padding: 13px;
 
   &:before {
     position: absolute;
+    top: 0;
     left: 0;
     content: "\21FD";
   }
@@ -35,6 +36,7 @@ $paginate-padding: 13px;
 
   &:after {
     position: absolute;
+    top: 0;
     right: 0;
     content: "\21FE";
   }
