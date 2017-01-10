@@ -3,43 +3,43 @@
   {% include head.html %}
 
   <body>
-    <div class="post">
-      <div class="bio__header">
-        <a href="{{ site.url }}{{ "/" | relative_url }}">
-          {{ site.header }}
-        </a>
-      </div>
-
-      <div class="post__meta">
-        <div class="post__title">{{ page.title }}</div>
-        <div class="post__date">
-          {% if site.date_format %}
-            {{ page.date | date: site.date_format }}
-          {% else %}
-            {{ page.date | date: "%b %-d, %Y" }}
-          {% endif %}
-        </div>
-        <div class="post__cat">{{ page.category }}</div>
-      </div>
-
-      <div class="post__body">
-        {{ content }}
-      </div>
-
-      {% if site.prev-next %}
-        <div class="post__paginate">
-          {% if page.previous.url %}
-            <a class="post__paginate-left" href="{{ site.url }}{{ page.previous.url | relative_url }}">&xlarr; {{ page.previous.title }}</a>
-          {% endif %}
-
-          {% if page.next.url %}
-            <a class="post__paginate-right" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }} &xrarr;</a>
-          {% endif %}
-        </div>
-      {% endif %}
-    </div>
-
     <div class="container">
+      <div class="post">
+        <div class="bio__header">
+          <a href="{{ site.url }}{{ "/" | relative_url }}">
+            {{ site.header }}
+          </a>
+        </div>
+
+        <div class="post__meta">
+          <div class="post__title">{{ page.title }}</div>
+          <div class="post__date">
+            {% if site.date_format %}
+              {{ page.date | date: site.date_format }}
+            {% else %}
+              {{ page.date | date: "%b %-d, %Y" }}
+            {% endif %}
+          </div>
+          <div class="post__cat">{{ page.category }}</div>
+        </div>
+
+        <div class="post__body">
+          {{ content }}
+        </div>
+
+        {% if site.prev-next %}
+          <div class="post__paginate">
+            {% if page.previous.url %}
+              <a class="post__paginate-left" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+            {% endif %}
+
+            {% if page.next.url %}
+              <a class="post__paginate-right" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+
       {% include posts_list.html uid=page.id %}
     </div>
   </body>
