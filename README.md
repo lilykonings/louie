@@ -40,7 +40,7 @@ g_analytics: UA-12345678-1
 
 header: name of your site here
 desc: >
-  description of your site, can be a quick bio if it's a portfolio
+  description of your site, can be a quick bio if it's a portfolio. It supports HTML so add your links, imgs, whatever!
 ```
 
 ### Social media links
@@ -71,13 +71,17 @@ date_format: "%m/%d/%Y"
 ```
 
 ### Post variables
-The following variables are required in the front matter for posts:
+You can include the following variables in the front matter for posts:
 
 ```yaml
 title:  Berry Perfume
 category: Narrative
-img: [ url or path in directory ]
+img: [ OPTIONAL: url or path in directory ]
 ```
+
+The `img` variable is used to produce a randomly placed image associated with this post when you hover over it. If you omit it, there simply won't be a picture and all is still well.
+
+If you prefer not to have the category in your post permalink, follow the guidelines [here](https://jekyllrb.com/docs/permalinks/) to remove it among other configurations.
 
 ### Post pagination
 To include previous and next links at the bottom of a post page, leave the following setting to `true`. Otherwise, change to `false`.
