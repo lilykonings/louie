@@ -1,10 +1,8 @@
-// Our variables
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
-
 $on-palm:           600px !default;
 $on-laptop:         800px !default;
 
 // typography
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 $inconsolata:       'Inconsolata', monospace;
 $font__size:        14px;
 $font__weight:      400;
@@ -12,7 +10,7 @@ $font__line-height: 1.5;
 
 // colors
 $color__black:      #000000;
-$color__gray:       #888888;
+$color__gray:       #eeeeee;
 $color__beige:      #f8f8f1;
 $color__yellow:     #fefeca;
 

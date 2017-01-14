@@ -59,12 +59,12 @@ $paginate-padding: 13px;
   border-bottom: 1px solid $color__black;
 
   pre {
-    background: #eeeeee;
+    background: $color__gray;
     padding: 10px 20px;
   }
 
   code {
-    background: #eeeeee;
+    background: $color__gray;
     font-size: 12px;
   }
 
