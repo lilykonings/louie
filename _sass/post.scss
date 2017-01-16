@@ -57,6 +57,20 @@ $paginate-padding: 13px;
 .post__body {
   padding-bottom: 20px;
   border-bottom: 1px solid $color__black;
+
+  pre {
+    background: $color__gray;
+    padding: 10px 20px;
+  }
+
+  code {
+    background: $color__gray;
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 // media queries
