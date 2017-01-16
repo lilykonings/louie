@@ -50,7 +50,7 @@ To add links to your social sites (linkedin, twitter, etc) below the bio, create
 - title: Twitter
   url: http://twitter.com/lllychen
 - title: Github
-  url: http://github.com/lllychen/lou
+  url: http://github.com/lllychen/louie
 # and so on...
 ```
 
